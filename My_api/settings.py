@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'b4kj6q08i_=8w!-f6tcn4lb9n+%1n__7xnv%dwvhdd2)(7xj!r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mydeepak.herokuapp.com','127.0.0.1']
 
 
 # Application definition
